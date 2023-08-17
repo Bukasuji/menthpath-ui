@@ -1,10 +1,6 @@
 import React from "react";
-//import Gear from './images/Gear.png'; 
-//import Interrogation from './images/Interrogation.png'; 
-//import logo from './images/logo.png'; 
-//import Rewards from './images/Rewards.png'; 
 
-const Orax = () => {
+const Navbar = () => {
     return(
         <div className="mb-[100px] pl-4 ">
         <div className="flex items-center mb-[50px] ml=[30px]">
@@ -40,9 +36,7 @@ const Orax = () => {
         <p className="mt-[12px] font-extrabold text-[#000000] text-[13px]">LOGIN</p> 
         <img className="ml-19" src="/images/Loggout.png" alt="logo" />
         </div>
-        
-
         </div>
     )
 }
-export default Orax;
+export default Navbar;
