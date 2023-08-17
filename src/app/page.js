@@ -1,10 +1,11 @@
 import History from "@/components/History";
 import Head from "next/head";
 import React from "react";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="h-[500px]">
       <Head>
         <title>Menthpath Ai</title>
         <meta name="An ai for answering career questions" content="home page" />
@@ -14,10 +15,11 @@ export default function Home() {
           rel="stylesheet"
         ></link>
       </Head>
-      <div className=" bg-[#070745] h-screen w-screen py-2 pl-0 pr-2">
+      <div className=" bg-[#070745] h-[820px] w-screen py-2 pl-0 pr-2">
 
         <div className="flex h-[100%]">
           <div class="bg-[#070745] h-[100%] w-[25%]">
+            <Navbar />
 
           </div>
           
