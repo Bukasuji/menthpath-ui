@@ -14,9 +14,14 @@ export default function Home() {
           rel="stylesheet"
         ></link>
       </Head>
-      <div className=" bg-[#070745] h-screen w-screen py-2 pl-64 pr-2">
+      <div className=" bg-[#070745] h-screen w-screen py-2 pl-0 pr-2">
+
         <div className="flex h-[100%]">
-          <div class="bg-white py-16 h-[100%] w-[75%] rounded-l-md shadow-md">
+          <div class="bg-[#070745] h-[100%] w-[25%]">
+
+          </div>
+          
+          <div class="bg-white  h-[100%] w-[75%] rounded-l-md shadow-md">
             //abrahams side
           </div>
 
