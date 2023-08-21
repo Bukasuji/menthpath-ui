@@ -1,7 +1,7 @@
-import History from "@/components/History";
+import History from "@/components/history/History";
 import Head from "next/head";
 import React from "react";
-import Navbar from "@/components/Navbar";
+import Main from "@/components/Main";
 
 export default function Home() {
   return (
@@ -15,22 +15,19 @@ export default function Home() {
           rel="stylesheet"
         ></link>
       </Head>
-      <div className=" bg-[#070745] h-[820px] w-screen py-2 pl-0 pr-2">
+      <div className="  py-2 pl-0 pr-2">
+        {/* <div className="flex h-[100%]">
+          <div class="bg-[#070745] h-[100%] w-[25%]"> <Navbar /> </div>
 
-        <div className="flex h-[100%]">
-          <div class="bg-[#070745] h-[100%] w-[25%]">
-            <Navbar />
-
-          </div>
-          
           <div class="bg-white  h-[100%] w-[75%] rounded-l-md shadow-md">
-            //abrahams side
+            <Main />
           </div>
 
           <div class="bg-[#d9d9d9] w-[25%] h-[100%] rounded-r-md">
             <History />
           </div>
-        </div>
+        </div> */}
+        this is the main page the one i am meant to do
       </div>
     </div>
   );
