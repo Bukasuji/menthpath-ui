@@ -89,13 +89,14 @@ const ChatSection = () => {
       </p>
 
       <div className="py-2">
-        <p className="bg-[#0206592B] px-4 py-2 rounded-[14px] w-full flex justify-between items-center">
-          I am stuck in my 9 to 5 job, help me!!
-          <div className="flex items-center text-base [&>svg]:mr-2">
-            <RxOpenInNewWindow />
-            View
-          </div>
-        </p>
+      <p className="bg-[#0206592B] px-4 py-2 rounded-[14px] w-full flex justify-between items-center">
+          I am stuck in my 9 to 5 job, help me&rsquo;&rsquo;!!
+       <div className="flex items-center text-base [&>svg]:mr-2">
+         <RxOpenInNewWindow />
+          View
+       </div>
+     </p>
+
       </div>
 
       <div className="w-full text-sm my-2 flex items-center justify-center">
