@@ -90,7 +90,7 @@ const ChatSection = () => {
 
       <div className="py-2">
       <p className="bg-[#0206592B] px-4 py-2 rounded-[14px] w-full flex justify-between items-center">
-          I am stuck in my 9 to 5 job, help me&rsquo;&rsquo;!!
+          I am stuck in my 9 to 5
        <div className="flex items-center text-base [&>svg]:mr-2">
          <RxOpenInNewWindow />
           View
