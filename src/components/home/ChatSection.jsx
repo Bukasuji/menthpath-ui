@@ -75,7 +75,7 @@ const ChatSection = () => {
             copy points
           </div>
         </header>
-        <section className="h-[calc(100dvh-302px)]">
+        <section className="h-[calc(100vh-302px)]">
           {activeComponent === "trends" && <TrendsComponent />}
           {activeComponent === "recommendations" && <RecomendationsComponent />}
           {activeComponent === "resources" && <ResourcesComponent />}
@@ -83,7 +83,7 @@ const ChatSection = () => {
       </div>
 
       <p className="text-xs mt-2">
-        Note: But that's not all! The power of WebAssembly ⚡️ is
+        Note: But that&#39;s not all! The power of WebAssembly ⚡️ is
         revolutionizing frontend engineering, offering incredible performance
         gains. 🚀 It's an exciting time to be part of this dynamic field!
       </p>
